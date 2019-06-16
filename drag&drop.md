@@ -290,3 +290,7 @@ ngOnInit() {
   }
  ```
 Petite parenthèse : le ``.bind(this)`` n'est souvent pas obligatoire. Je l'ai appliqué par précaution au cas où il ne reconnaîtrai pas le tableau ``taskGroupsIds`` déclaré plus haut.
+
+En espérant que ce tutoriel vous aura été utile ;)
+
+Si vous souhaitez en savoir plus, voici le lien vers la documentation d'Angular Material : <https://material.angular.io/cdk/drag-drop/overview>
