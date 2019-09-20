@@ -8,7 +8,7 @@ Partons du principe que nous avons déjà un projet Angular et des éléments en
 
 ## C'est parti !
 
-Première étape, installer ``@angular/cdk``, une dépendance qui nous permettra en autres d'utiliser le module ``DropDropModule``.
+Première étape, installer ``@angular/cdk``, une dépendance qui nous permettra entre autres d'utiliser le module ``DropDropModule``.
 
 ```shell
 npm i --save @angular/cdk
@@ -28,7 +28,7 @@ imports: [
   ]
 ```
 
-Une fois ceci fait, nous pouvons appliquer le drag and drop à tous les endroits où nous en avons besoin ! Le module met à disposition des méthodes et des directives qui nous permettrons de facilement mettre en place cette fonctionnalité.
+Une fois ceci fait, nous pouvons appliquer le drag and drop à tous les endroits où nous en avons besoin ! Le module met à disposition des méthodes et des directives qui nous permettront de facilement mettre en place cette fonctionnalité.
 
 ### Attention !
 Il est possible que vous ayez ce genre d'erreur à un moment ou un autre :
@@ -168,7 +168,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
 Quelques directives à connaître pour commencer :
 
-- ``cdkDrag`` : Permet de rendre un élément draggable
+- ``cdkDrag`` : Permet de rendre un élément draggable.
 - ``cdkDropList`` : Permet d' imposer une zone dans laquelle un élément peut être déplacé.
 - ``cdkDropListGroup`` : Permet de créer un groupe de zones dans lesquels des éléments peuvent être déplacés et/ou transférés. Un seconde méthode existe pour le faire.
 - ``[cdkDropListData]`` : Permet de lier les données à une zone afin de pouvoir plus simplement les traiter.
@@ -224,7 +224,7 @@ Ensuite, j'affiche mes différentes listes (qui sont en fait mes ``taskGroups`` 
 
 Comme annoncé plus haut, ``cdkDropList`` me permet d'imposer une zone dans laquelle un élément peut être déplacé. Je ne souhaite pas que mes éléments puissent être déplacés en dehors de mes listes.
 
-Je lie ensuite mes données à mes listes dans le DOM grâce à ceci : ``[cdkDropListData]="taskGroup.tasks"``. De cette façon je vais pouvoir récupérer dans le type script les données transmises par l'évènemen drop.
+Je lie ensuite mes données à mes listes dans le DOM grâce à ceci : ``[cdkDropListData]="taskGroup.tasks"``. De cette façon je vais pouvoir récupérer dans le type script les données transmises par l'évènement drop.
 
 D'ailleurs quand on parle du loup ! La directive ``(cdkDropListDropped)="onTaskDrop($event)"`` va exécuter la méthode ``onTaskDrop($event)`` via l'event binding. L'évènement qui la déclanchera sera le drop d'un élément. En paramètre, on indique d'ailleurs l'événement.
 
