@@ -8,7 +8,7 @@ Partons du principe que nous avons déjà un projet Angular et des éléments en
 
 ## C'est parti !
 
-Première étape, installer ``@angular/cdk``, une dépendance qui nous permettra entre autres d'utiliser le module ``DropDropModule``.
+Première étape, installer ``@angular/cdk``, c'est une dépendance qui nous permettra entre autres d'utiliser le module ``DropDropModule``.
 
 ```shell
 npm i --save @angular/cdk
