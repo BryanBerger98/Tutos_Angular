@@ -17,5 +17,5 @@
 * [NG-ZORRO](https://github.com/NG-ZORRO/ng-zorro-antd)
 * [ngSemantic](https://ng-semantic.herokuapp.com/#/)
 
-## WebSocket
+## Web Sockets
 * [NGX-Socket-IO](https://github.com/rodgc/ngx-socket-io)
