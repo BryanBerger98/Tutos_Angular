@@ -5,7 +5,7 @@
 * [DataTables](https://l-lin.github.io/angular-datatables/#/getting-started)
 
 ## UI Components
-* [Anguular Material](https://material.angular.io/)
+* [Angular Material](https://material.angular.io/)
 * [Clarity Design System](https://clarity.design/)
 * [NG-Bootstrap](https://ng-bootstrap.github.io/#/home)
 * [NGX-Bootstrap](https://valor-software.com/ngx-bootstrap/#/)
@@ -16,3 +16,6 @@
 * [Ignite UI](https://www.infragistics.com/products/ignite-ui)
 * [NG-ZORRO](https://github.com/NG-ZORRO/ng-zorro-antd)
 * [ngSemantic](https://ng-semantic.herokuapp.com/#/)
+
+## WebSocket
+* [NGX-Socket-IO](https://github.com/rodgc/ngx-socket-io)
