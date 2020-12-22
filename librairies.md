@@ -19,3 +19,4 @@
 
 ## Web Sockets
 * [NGX-Socket-IO](https://github.com/rodgc/ngx-socket-io)
+* [socket.io-client](https://www.npmjs.com/package/socket.io-client)
