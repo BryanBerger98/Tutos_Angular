@@ -22,3 +22,5 @@
 * [socket.io-client](https://www.npmjs.com/package/socket.io-client)
 
 # Bonnes pratiques
+
+* [Angular Architecture Best Practices](https://dev-academy.com/angular-architecture-best-practices/)
